@@ -1,0 +1,109 @@
+.allPage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(181, 166, 166, 0.5);
+}
+
+.modalContainer {
+  position: absolute;
+  width: 25rem;
+  height: 120px;
+  background: #f5e1e1;
+
+  margin: auto;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  box-shadow: 0px 6px 41px 1px rgba(3,3,3,0.23);
+}
+
+.updateContainer {
+  display: flex;
+  margin: auto;
+
+  gap: 1rem;
+
+  padding: 10px;
+}
+
+.updateContainer input {
+  height: 2.3rem;
+  width: 15rem;
+
+  font-size: 15px;
+
+  border: none;
+  border-bottom: 1px solid #F84C6F;
+
+  outline: white;
+
+  color: #454444;
+}
+
+.updateContainer button{
+  width: 2.5rem;
+  height: 2.5rem;
+
+  padding: 1rem;
+
+  background: #F84C6F !important;
+
+  border: none;
+  border-radius: 10px;
+
+  outline: white;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonClose {
+  float: right;
+}
+
+.modal input {
+  width: 1.2rem;
+  height: 1rem;
+}
+
+
+
+@media only screen and (max-width:450px) {
+  .modalContainer {
+    position: absolute;
+    width: 80%;
+    min-width: 320px;
+    height: 100px;
+  }
+
+  .modal input {
+    width: 1.5rem;
+    height: 1rem;
+  }
+}
+
+
+@media only screen and (max-width:350px) {
+  .updateContainer {
+  gap: 0.5rem;
+  }
+  .modalContainer {
+    min-width: 280px;
+  }
+}

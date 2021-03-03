@@ -1,0 +1,10 @@
+.completedTaskContainer {
+  background-color: #b3b2b2 !important;
+
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.completedTaskContainer button {
+  filter: opacity(50%);
+}

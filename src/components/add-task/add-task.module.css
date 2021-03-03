@@ -1,0 +1,79 @@
+
+.addTask {
+  width: 80%;
+
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.addButton img {
+  width: 1.5rem;
+}
+
+
+
+.addTask Button {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  padding: 1rem;
+
+  background: #F84C6F;
+
+  border: none;
+  border-radius: 15px;
+
+  outline: white;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.addTask Button:hover {
+  filter: brightness(90%);
+}
+
+.addTask input {
+  height: 2.3rem;
+  width: 15rem;
+
+  font-size: 15px;
+
+  border: none;
+  border-bottom: 1px solid #F84C6F;
+
+  outline: white;
+
+  color: #454444;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.7s 0.7s ease;
+  text-indent: -100%;
+  opacity: 1;
+}
+
+
+@media only screen and (max-width:400px) {
+
+  .addTask input {
+    height: 2rem;
+    width: 10rem;
+  }
+
+
+  .addTask Button {
+    width: 2rem;
+    height: 2rem;
+  }
+}

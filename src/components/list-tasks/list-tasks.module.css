@@ -1,0 +1,13 @@
+.container {
+  width: 75%;
+  margin: auto;
+
+  padding-top: 10px;
+}
+
+span.title  {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+
+  color: #8c868a;
+}
